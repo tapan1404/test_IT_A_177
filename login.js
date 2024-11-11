@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const password = document.getElementById("password").value;
     
     if (username=='Tapan' && password=='Tapan') {
-        alert("Login successful!");
+        
         window.location.href = "dash.html";
     } else {
         alert("Invalid Login Details");
