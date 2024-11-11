@@ -8,6 +8,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         alert("Login successful!");
         window.location.href = "dash.html";
     } else {
-        alert("Please fill in both fields.");
+        alert("Invalid Login Details");
     }
 });

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  h2 {
+    color: #5cb85c;
+    font-weight: normal;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  #fetchButton {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  #fetchButton:hover {
+    background-color: #4cae4c;
+  }
+  
+  select {
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #userList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    color: blue;
+  }
+  
+  #userList li {
+    margin: 5px 0;
+  }
+  
+  #logoutButton {
+    background-color: #d9534f;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #logoutButton:hover {
+    background-color: #c9302c;
+  }
+  

@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="dash.js"></script>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dash.css">
+  <script src="dash.js" defer></script>
 </head>
 
 <body>
-  <h1>Top 10 Github users</h1>
-  <button onclick="fetchdata()">Get Data</button>
-  <div id="div1"></div>
-</body>
+  <h1>Dashboard</h1>
+  <h2>Welcome Tapan</h2>
 
+  <div class="container">
+    <button id="fetchButton" onclick="fetchdata()">Fetch Top 10 GitHub Users</button>
+    <select>
+      <option>Default</option>
+    </select>
+
+    <ul id="userList"></ul>
+    <button id="logoutButton" onclick="redirectToLogin()">Logout</button>
+  </div>
+</body>
 </html>
